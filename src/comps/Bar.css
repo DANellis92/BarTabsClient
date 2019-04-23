@@ -1,0 +1,18 @@
+.particle-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #eb8a00;
+  background-image: radial-gradient(circle, #ffb900, #da5900);
+  z-index: 0;
+}
+
+.particle-container div {
+  height: 100vh;
+}
+
+#Part {
+  position: relative;
+  z-index: 5;
+}
